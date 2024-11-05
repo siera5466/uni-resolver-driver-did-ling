@@ -1,7 +1,7 @@
 # uni-resolver-registrar-driver-did-ling
 Universal Resolver and Registrar Driver for Ling DIDs
 
-![logo-dif](https://github.com/user-attachments/assets/37c1c79f-6cbe-4dba-ad92-11e79700dfeb)
+![192973196-cb5b248b-d307-4fce-bae6-f3525681ea85](https://github.com/user-attachments/assets/4cf2dc81-2d32-44b0-a042-cb07784bf07b)
 
 
 ## Universal Resolver and Registrar: `did-ling`
