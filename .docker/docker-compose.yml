@@ -1,0 +1,14 @@
+services:
+  ling-client:
+    container_name: ling-client
+    image: k4security/ling-client:v1.0.10
+    ports:
+      - "9800:9800"
+    environment:
+      - SERVER_HOST=http://192.168.20.6:9000  # input ling-server IP address
+    networks:
+      - client_network
+
+networks:
+  client_network:
+    driver: bridge
