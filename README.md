@@ -1,5 +1,5 @@
 # uni-resolver-registrar-driver-did-ling
-Universal Resolver and Registrar Driver for Ling DIDs
+Universal Resolver and Registrar Driver for did:ling identifiers by K4-Security.
 
 ![192973196-cb5b248b-d307-4fce-bae6-f3525681ea85](https://github.com/user-attachments/assets/4cf2dc81-2d32-44b0-a042-cb07784bf07b)
 
