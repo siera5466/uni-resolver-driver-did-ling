@@ -1,0 +1,38 @@
+version: "3.8"
+services:
+  ling-server:
+    container_name: ling-server
+    image: k4security/ling-server:v1.0.1
+    ports:
+      - "9000:9000"
+    networks:
+      - ling_network
+    links:
+      - ling-dbc
+      - ling-rbc
+  ling-dbc:
+    container_name: ling-dbc
+    image: k4security/ling-dbc:v1.0.1
+    ports:
+      - "18010:18010"
+    networks:
+      - ling_network
+    volumes:
+      - ling_dbc_data:/app
+    links:
+      - ling-rbc
+  ling-rbc:
+    container_name: ling-rbc
+    image: k4security/ling-rbc:v1.0.1
+    ports:
+      - "18020:18020"
+    networks:
+      - ling_network
+    volumes:
+      - ling_rbc_data:/app
+networks:
+  ling_network:
+     driver: bridge
+volumes:
+ ling_dbc_data:
+ ling_rbc_data:
