@@ -1,12 +1,12 @@
-# uni-resolver-driver-did-ling
-Universal Resolver Driver for Ling DIDs
+# uni-resolver-registrar-driver-did-ling
+Universal Resolver and Registrar Driver for Ling DIDs
 
 ![logo-dif](https://github.com/user-attachments/assets/37c1c79f-6cbe-4dba-ad92-11e79700dfeb)
 
 
-## Universal Resolver Driver: driver-did-ling
+## Universal Resolver and Registrar: `did-ling`
 
-This is a [Universal Resolver](https://github.com/decentralized-identity/universal-resolver) driver for `did:ling` identifiers.
+This is a [Universal Resolver](https://github.com/decentralized-identity/universal-resolver) / [Universal Registrar](https://github.com/decentralized-identity/universal-registrar) driver for `did:ling` identifiers.
 
 ## Specifications
 
